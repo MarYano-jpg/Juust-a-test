@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risa Hontiveros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FFC0CB; /* Light pink */
+            color: #C71585; /* Darker pink */
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            animation: pop 1.5s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 5px solid #C71585;
+            animation: float 3s infinite alternate ease-in-out;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #FF69B4; /* Hot pink */
+            color: white;
+            padding: 12px 25px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 1.2em;
+            transition: 0.3s;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #FF1493; /* Deeper pink */
+            transform: scale(1.1);
+            animation: wiggle 0.5s ease-in-out infinite alternate;
+        }
+
+        /* Animations */
+        @keyframes pop {
+            0% { transform: scale(0.8); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(10px); }
+        }
+
+        @keyframes wiggle {
+            0% { transform: rotate(-3deg); }
+            100% { transform: rotate(3deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Risa Hontiveros</h1>
+    <img src="SenRisaHontiveros.jpg" alt="Risa Hontiveros"> 
+<p>
+        Risa Hontiveros is a Filipino politician, journalist, and activist serving as a Senator of the Philippines. She is known for her advocacy in health, women’s rights, and human rights.  
+        As a legislator, she has authored and supported various laws that focus on social justice and healthcare.  
+        She was a former journalist and a social activist before entering politics.  
+        Throughout her career, she has been a strong advocate for gender equality and mental health awareness.  
+    </p>
+    <a href="https://senrisahontiveros.com/" class="btn" target="_blank">Official Website</a>
+    <a href="https://en.wikipedia.org/wiki/Risa_Hontiveros" class="btn" target="_blank">Wikipedia</a>
+</body>
+</html>
